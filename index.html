@@ -4,42 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Somesh Banerjee</title>
+    
+    <link  rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+
+
+
+    <title>Home</title>
 </head>
 <body>
-    <nav>
-        <div>
-            <ul>
-                <li>Home</li>
-                <li>About Me</li>
-                <li>Skills</li>
-                <li>Projects</li>
+    <nav class = 'navigation container'>
+        <div class = 'nav-brand'>Somesh Banerjee</div>
+     
+            
+            <ul class = 'list-non-bullet nav-pills'>
+                
+                <li  class = 'list-item-inline'>
+                   <a href = "/" class = 'link link-active'>Home</a> 
+                </li>
+                <li class = 'list-item-inline'>
+                    <a  href = 'projects.html' class = 'link'>Projects
+                    </li></a>  
+                <li class = 'list-item-inline'>
+                    <a href = 'blogs.html' class = 'link'> Blogs</a> 
+                  
+                </li>
+               
             </ul>
+        </nav>
+        <header class = 'hero'>
+ 
+            <img class = 'hero-img' src = '/images/aboutme.svg' />
+            <h2 class ='hero-heading' style = "color: var(--secondary-color);">SOMESH   the <span style = "color:var(--primary-color);">FRONTEND DEVELOPER</span></h2>
+        </header>
+      <section class = 'section ow'>
+        <div class = 'container container-center radius'>
+        <h1>Technologies</h1>
+        <p>I am familiar with HTML, CSS , Git , Javacript, Bootstrap, , Python,  and web Hosting.</p>
+    </div>
+    </section>   
+    <section class = 'section'>
+        <div class = 'container container-center'>
+        <h1>Projects</h1>
+    <p>I like to showcase my work and thus, you can see my projects hosted online.</p>
+    <div style = 'text-align : center'>  
+    <a class = 'link primary-link' href = "#" >View Projects</a>
+    </div>
+</div></section>
+ <section class = 'section ow'>
+        <div class = 'container container-center '>
+        <h1>Blogs</h1>
+        <p>Sometimes I tend to write some technical Blogs, YOu can check them below.</p>
+        <!-- <a class = 'link primary-link' href = "#">Read Bolgs</a> -->
+      <div style = 'text-align : center'><a class = 'link secondary-link' href = "#">Read Bolgs</a></div>  
+    </div>
+    </section>   
+
+    <footer class = 'footer'>
+        <div class = 'footer-header'>
+         Let's Connect.
         </div>
-    </nav>
+        <ul class = 'social-links list-non-bullet'>
+            
+            <li class = 'list-item-inline'><a class = 'link' href="mailto:someshbanerjee529@gmail.com?Subject=Some%20subject" target="_blank">
+                <i class="fa-solid fa-envelope"></i>
+            </a></li>
+ 
+    
+            <li class = 'list-item-inline'><a class = 'link' href = "https://www.linkedin.com/in/somesh-banerjee-2213b5221/" target="_blank">
+                <i class="fa-brands fa-linkedin"  ></i>
+            </a></li>
+ 
 
-    <!-- About me section -->
-    <img src="/images/aboutme.svg" alt="About-Me" width="100px" height="100px">
-    <p>Hey There!, Myself <strong>Somesh Banerjee</strong><br> I am a Frontend Developer</p>
+            <li class = 'list-item-inline'>
+                <a class = 'link' href = "https://twitter.com/SomeshBanerje15" target="_blank">
+                  <i class="fa-brands fa-twitter"></i>
+              </a></li>
 
-    <!-- Skills sections -->
-    <p>Bellow are the <strong>Skills </strong> & <strong>Technologies</strong>  which I have been working</p>
-    <div>
-        <img src="/images/skills/html5.png" alt="HTML5" width="100px" height="100px">
-        <img src="/images/skills/css3.png" alt="CSS3" width="100px" height="100px">
-        <img src="/images/skills/bootstrap.jpg" alt="Bootstrap" width="100px" height="100px">
-        <img src="/images/skills/javascript.png" alt="JavaScript" width="100px" height="100px">
-        <img src="/images/skills/Java.png" alt="Java" width="100px" height="100px">
-        <img src="/images/skills/Git.png" alt="Git" width="100px" height="100px">
-    </div>
+        <li class = 'list-item-inline'>
+            <a class = 'link' href = "https://github.com/Somesh11097" target="_blank">
 
-    <!-- social Profile section -->
-    <div>
-        <p>You can connect with me </p>
-        <a href="https://www.linkedin.com/in/somesh-banerjee-2213b5221/" target="_blank">Linkedln</a>
-        <a href="https://twitter.com/SomeshBanerje15" target="_blank">Twitter</a>
-        <a href="#">Email</a>
-    </div>
+              <i class="fa-brands fa-github"></i>
+        </a></li>
 
+    </ul>
+    </footer>
+    <link href="style.css" rel = "stylesheet" />
 </body>
 </html>
